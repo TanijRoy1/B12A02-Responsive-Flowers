@@ -64,15 +64,61 @@ body{
     margin-left: 1.5625rem;
 }
 
-
+/* ------------Latest Deal Section----------- */
+.latest-deal-box{
+    position: relative;
+}
+.latest-deal-box::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1.5rem;
+}
+.latest-deal-box-content{
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+.latest-deal-box-title{
+    font-family: "Noto Serif", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.shop-now{
+    font-weight: 600;
+    text-decoration: underline;
+}
+#latest-deal-box-title-2{
+    font-size: 2.5rem;
+}
+#shop-now-2{
+    font-size: 1.75rem;
+}
 
 /* ----------Media Query----------- */
 @media  screen and (max-width: 1024px) {
     header,
     .hero-right,
     .plant-section,
-    .plants-lover-section{
+    .plants-lover-section,
+    .latest-deal-section{
         padding-left: 16px;
         padding-right: 16px;
+    }
+    #latest-deal-box-title-2{
+        font-size: 1.25rem;
+    }
+    #shop-now-2{
+        font-size: 1rem;
     }
 }
