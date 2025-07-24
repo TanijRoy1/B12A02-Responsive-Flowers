@@ -34,3 +34,11 @@ body{
 .nav-link:hover{
     color: #252432;
 }
+
+/* ----------Media Query----------- */
+@media  screen and (max-width: 768px) {
+    header,
+    .hero-right{
+        padding: 0 16px;
+    }
+}
