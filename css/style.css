@@ -4,6 +4,27 @@ body{
     font-family: "Noto Serif", serif;
     font-family: "Inter", sans-serif;
 }
+/* --------utility-------- */
+.home-section{
+    padding: 50px 0;
+}
+.section-heading{
+    font-family: "Noto Serif", serif;
+    font-size: 4.0625rem;
+    font-weight: bold;
+}
+.colored{
+    color: #E95A08;
+}
+.section-description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* ----------Header---------- */
+.hero-section{
+    margin-top: 100px;
+}
 .nav-link{
     color: #8987A1;
 }
