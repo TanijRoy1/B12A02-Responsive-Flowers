@@ -35,10 +35,34 @@ body{
     color: #252432;
 }
 
+/* ---------Plant Section-------- */
+.btn{
+    background-color: #E95A08;
+    color: #fff;
+    font-weight: 600;
+    padding: 19px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #af4203;
+}
+.card-content{
+    padding: 20px 0;
+}
+.card-content p{
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+.card-content h5{
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
 /* ----------Media Query----------- */
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 1024px) {
     header,
-    .hero-right{
+    .hero-right,
+    .plant-section{
         padding: 0 16px;
     }
 }
