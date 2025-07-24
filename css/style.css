@@ -105,13 +105,34 @@ body{
     font-size: 1.75rem;
 }
 
+/* -----------Join Section---------- */
+.join-section{
+    height: 533px;
+    background-image: url(../assets/news-letter-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 0;
+}
+.btn.subscribe-btn{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.join-input{
+    background: #fff;
+    flex-grow: 1;
+    padding-left: 20px;
+    outline: none;
+}
+
 /* ----------Media Query----------- */
 @media  screen and (max-width: 1024px) {
     header,
     .hero-right,
     .plant-section,
     .plants-lover-section,
-    .latest-deal-section{
+    .latest-deal-section,
+    .join-section{
         padding-left: 16px;
         padding-right: 16px;
     }
@@ -120,5 +141,12 @@ body{
     }
     #shop-now-2{
         font-size: 1rem;
+    }
+    .join-input{
+        width: 50%;
+    }
+    .btn.subscribe-btn{
+       padding-left: 16px;
+       padding-right: 16px;
     }
 }
