@@ -6,7 +6,8 @@ body{
 }
 /* --------utility-------- */
 .home-section{
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .section-heading{
     font-family: "Noto Serif", serif;
@@ -58,11 +59,20 @@ body{
     font-weight: 700;
 }
 
+/* -------------Plants Lover Section----------- */
+.plants-lover-section ul li{
+    margin-left: 1.5625rem;
+}
+
+
+
 /* ----------Media Query----------- */
 @media  screen and (max-width: 1024px) {
     header,
     .hero-right,
-    .plant-section{
-        padding: 0 16px;
+    .plant-section,
+    .plants-lover-section{
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
