@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Noto Serif", serif;
+    font-family: "Inter", sans-serif;
+}
+.nav-link{
+    color: #8987A1;
+}
+.nav-link.active{
+    color: #252432;
+}
+.nav-link:hover{
+    color: #252432;
+}
