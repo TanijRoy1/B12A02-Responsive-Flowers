@@ -35,6 +35,15 @@ body{
 .nav-link:hover{
     color: #252432;
 }
+.cart-btn{
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
+.cart-btn:hover{
+    border: 2px solid #474747;
+}
 
 /* ---------Plant Section-------- */
 .btn{
@@ -206,5 +215,11 @@ body{
     }
     .footer-link{
         font-size: 1rem;
+    }
+}
+@media screen and (max-width:350px){
+    .add-card-btn{
+        font-size: 0.9rem;
+        padding: 19px 10px;
     }
 }
