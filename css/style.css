@@ -173,4 +173,13 @@ body{
        padding-left: 16px;
        padding-right: 16px;
     }
+    .section-heading{
+       font-size: 1.5rem;
+    }
+    .section-description{
+       font-size: 0.875rem;
+    }
+    .footer-link{
+        font-size: 1rem;
+    }
 }
