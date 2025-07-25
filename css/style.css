@@ -60,6 +60,26 @@ body{
 }
 
 /* -------------Plants Lover Section----------- */
+.plants-lover-section{
+    position: relative;
+}
+.trusted-badge{
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    left: 50%;
+    top: -11%;
+    transform: translateX(-68%) rotate(0deg);
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    to{
+        transform: translateX(-68%) rotate(0deg);
+    }
+    from{
+        transform: translateX(-68%) rotate(-360deg);
+    }
+}
 .plants-lover-section ul li{
     margin-left: 1.5625rem;
 }
@@ -126,9 +146,6 @@ body{
 }
 
 /* ------------Footer---------- */
-.footer-box:nth-child{
-    padding: ;
-}
 .footer-box>img{
     width: 36px;
     height: 36px;
