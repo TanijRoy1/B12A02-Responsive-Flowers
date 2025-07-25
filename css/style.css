@@ -146,9 +146,17 @@ body{
 }
 
 /* ------------Footer---------- */
-.footer-box>img{
+.social-logo{
+    display: inline;
+    height: auto;
+}
+.social-logo img{
     width: 36px;
     height: 36px;
+}
+.social-logo:nth-child(2) img{
+    width: 28px;
+    height: 28px;
 }
 .footer-box ul{
     display: flex;
