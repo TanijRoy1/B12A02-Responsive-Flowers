@@ -125,17 +125,41 @@ body{
     outline: none;
 }
 
+/* ------------Footer---------- */
+.footer-box:nth-child{
+    padding: ;
+}
+.footer-box>img{
+    width: 36px;
+    height: 36px;
+}
+.footer-box ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.625rem;
+}
+.footer-link{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-link:hover{
+    color: #000;
+}
+
 /* ----------Media Query----------- */
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1152px){
     header,
     .hero-right,
     .plant-section,
     .plants-lover-section,
     .latest-deal-section,
-    .join-section{
+    .join-section,
+    footer{
         padding-left: 16px;
         padding-right: 16px;
     }
+}
+@media  screen and (max-width: 1024px) {
     #latest-deal-box-title-2{
         font-size: 1.25rem;
     }
